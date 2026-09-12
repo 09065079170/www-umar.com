@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Umar Lurwanu - My Website</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0077ff, #00c6ff);
+            color: #222;
+            padding: 20px;
+        }
+
+        .card {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 30px 20px;
+            border-radius: 25px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+        }
+
+        h1 {
+            color: #0077ff;
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        .welcome {
+            color: #666;
+            font-size: 18px;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #0077ff;
+            margin: 20px auto;
+        }
+
+        h2 {
+            color: #0077ff;
+            font-size: 22px;
+        }
+
+        .quote {
+            background: #f0f8ff;
+            padding: 18px;
+            border-left: 5px solid #0077ff;
+            border-radius: 10px;
+            font-style: italic;
+        }
+
+        .info {
+            text-align: left;
+            background: #f7f7f7;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .info p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        .products-img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 18px;
+            margin-top: 20px;
+        }
+
+        button {
+            background: #0077ff;
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            border-radius: 30px;
+            font-size: 17px;
+            font-weight: bold;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056c7;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1>Welcome to My Website</h1>
+
+    <p class="welcome">My name is Umar Lurwanu</p>
+
+    <img class="profile-img" src="ulats-one.jpg" alt="Umar">
+
+    <h2>Computer Science Student</h2>
+
+    <p>
+        📧 ulurwanu033@gmail.com
+    </p>
+
+    <div class="quote">
+        "Success comes to those who work hard."
+    </div>
+
+    <div class="info">
+
+        <p><b>👤 Real Name:</b> Umar Lurwanu</p>
+
+        <p><b>🏠 Favorite Town:</b> Tsiga</p>
+
+        <p>
+            <b>💻 My Course:</b>
+            Computer Science
+        </p>
+
+        <p>
+            <b>🎓 My School:</b>
+            Hassan Usman Polytechnic
+        </p>
+
+        <p>
+            I am currently facing my examinations.
+            I believe that Almighty Allah will grant
+            me success in every situation.
+        </p>
+
+        <p>
+            Don't be afraid of challenges.
+            Always remember that hard work,
+            patience and determination are keys to success.
+        </p>
+
+        <p>
+            I would like to thank Almighty Allah
+            for giving me the opportunity to become
+            a web developer.
+        </p>
+
+    </div>
+
+    <img class="products-img" src="products.jpg" alt="Products">
+
+    <br>
+
+    <button onclick="goToProducts()">
+        View My Products →
+    </button>
+
+    <footer>
+        © 2026 Umar Lurwanu | My Personal Website
+    </footer>
+
+</div>
+
+<script>
+    function goToProducts() {
+        window.location.href = "products.html";
+    }
+</script>
+<a href="products.html">
+    <button>View Products</button>
+</a>
+  
+</body>
+</html>
